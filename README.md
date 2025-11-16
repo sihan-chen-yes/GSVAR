@@ -1,5 +1,8 @@
 # GS-VAR: High-fidelity Gaussian Splatting via Visual Autoregressive Models
 Summer project at Disney Research Studios (DRS) at Zurich
+
+[![Report](https://img.shields.io/badge/Report-PDF-blue?logo=adobeacrobatreader&logoColor=white)](./asset/GSVAR_report.pdf) [![Video](https://img.shields.io/badge/Video-YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/oFNeO3beryY)
+
 <p align="center">
   <img src="./asset/arch.png" alt="Architecture" width="80%">
 </p>
@@ -7,9 +10,6 @@ Summer project at Disney Research Studios (DRS) at Zurich
 <p align="center">
   <img src="./asset/teaser.png" alt="Teaser" width="80%">
 </p>
-
-[report](./asset/GSVAR_report.pdf) \
-see our [video](https://youtu.be/oFNeO3beryY) for more visual results
 * We propose GS-VAR, the first method, to the best of our knowledge, that integrates a Visual Autoregressive (VAR) model into the 3DGS reconstruction pipeline. This enables real-time, high-fidelity enhancement of novel views rendered from 3DGS, offering a new direction beyond diffusion-based fixers
 
 * We design two novel modules to improve enhancement quality: Reference Mixing Block (RMB), which aggregates spatial cues across neighboring views via multi-scale self-attention, and the VAE-bridge, which adaptively fuses input and generated content to mitigate hallucination and preserve structural fidelity
